@@ -1,0 +1,13 @@
+# Tailwind CSS From Scratch
+
+Repository for projects in the course by @bradtraversy
+
+## Mini Projects
+
+|     | Project         | Demo                                                                 |
+| --- | --------------- | -------------------------------------------------------------------- |
+| 01  | Email Subscribe | [Demo](https://raubaca.github.io/tailwind-projects/email-subscribe/) |
+| 02  | Pricing Cards   | [Demo](https://raubaca.github.io/tailwind-projects/pricing-cards/)   |
+| 03  | Product Modal   | [Demo](https://raubaca.github.io/tailwind-projects/product-modal/)   |
+| 04  | Image Gallery   | [Demo](https://raubaca.github.io/tailwind-projects/image-gallery/)   |
+| 05  | Login Modal     | [Demo](https://raubaca.github.io/tailwind-projects/login-modal/)     |
