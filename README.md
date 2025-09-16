@@ -1,6 +1,6 @@
 # Tailwind CSS From Scratch
 
-Repository for projects in the course by @bradtraversy
+Repository for projects in the course by [@bradtraversy](https://github.com/bradtraversy)
 
 ## Mini Projects
 
@@ -11,3 +11,9 @@ Repository for projects in the course by @bradtraversy
 | 03  | Product Modal   | [Demo](https://raubaca.github.io/tailwind-projects/product-modal/)   |
 | 04  | Image Gallery   | [Demo](https://raubaca.github.io/tailwind-projects/image-gallery/)   |
 | 05  | Login Modal     | [Demo](https://raubaca.github.io/tailwind-projects/login-modal/)     |
+
+## Projects
+
+|     | Project   | Demo                                                           |
+| --- | --------- | -------------------------------------------------------------- |
+| 01  | Clipboard | [Demo](https://raubaca.github.io/tailwind-projects/clipboard/) |
