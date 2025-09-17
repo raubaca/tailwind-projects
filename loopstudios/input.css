@@ -1,0 +1,85 @@
+@import 'tailwindcss';
+
+@theme {
+  --breakpoint-sm: 480px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 976px;
+  --breakpoint-xl: 1440px;
+
+  --font-sans: 'Josefin Sans', sans-serif;
+  --font-alata: 'Alata', serif;
+
+  --tracking-widest: 0.3em;
+}
+
+@layer base {
+  h5 {
+    @apply absolute bottom-4 w-52 px-6 duration-200 group-hover:scale-110 group-hover:text-black md:bottom-8 md:px-10;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply font-alata my-0 border-2 border-black px-10 py-2 font-bold tracking-widest uppercase hover:bg-black hover:text-white;
+  }
+}
+
+.hero {
+  background-image: url('./images/mobile/image-hero.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  @media (width > 576px) {
+    background-image: url('./images/desktop/image-hero.jpg');
+  }
+}
+
+.item-container {
+  @apply flex w-full flex-col justify-between space-y-6 text-2xl text-white uppercase md:flex-row md:space-y-0 md:space-x-8;
+}
+.item {
+  @apply relative overflow-hidden md:w-1/4;
+}
+.item-gradient {
+  @apply absolute inset-0 bg-gradient-to-b from-transparent to-gray-900 group-hover:from-gray-50 group-hover:to-white group-hover:opacity-70;
+}
+
+/* Hamburger Button */
+.hamburger {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  transition: all 0.25s;
+  cursor: pointer;
+}
+.hamburger-top,
+.hamburger-mid,
+.hamburger-bot {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 2px;
+  background: #fff;
+  transform: rotate(0);
+  transition: all 0.5s;
+}
+.hamburger-mid {
+  transform: translateY(7px);
+}
+.hamburger-bot {
+  transform: translateY(14px);
+}
+
+.open {
+  transform: rotate(90deg);
+  .hamburger-top {
+    transform: rotate(45deg) translateY(6px) translateX(6px);
+  }
+  .hamburger-bot {
+    transform: rotate(-45deg) translateY(6px) translateX(-6px);
+  }
+  .hamburger-mid {
+    transform: scaleX(0);
+  }
+}

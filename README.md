@@ -14,6 +14,7 @@ Repository for projects in the course by [@bradtraversy](https://github.com/brad
 
 ## Projects
 
-|     | Project   | Demo                                                           |
-| --- | --------- | -------------------------------------------------------------- |
-| 01  | Clipboard | [Demo](https://raubaca.github.io/tailwind-projects/clipboard/) |
+|     | Project     | Demo                                                             |
+| --- | ----------- | ---------------------------------------------------------------- |
+| 01  | Clipboard   | [Demo](https://raubaca.github.io/tailwind-projects/clipboard/)   |
+| 02  | Loopstudios | [Demo](https://raubaca.github.io/tailwind-projects/loopstudios/) |
