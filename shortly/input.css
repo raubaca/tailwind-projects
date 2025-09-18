@@ -1,0 +1,75 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-cyan: hsl(180, 66%, 49%);
+  --color-cyanLight: hsl(180, 66%, 69%);
+  --color-darkViolet: hsl(257, 27%, 26%);
+  --color-red: hsl(0, 87%, 67%);
+  --color-grayishViolet: hsl(257, 7%, 63%);
+  --color-veryDarkBlue: hsl(255, 11%, 22%);
+  --color-veryDarkViolet: hsl(260, 8%, 14%);
+
+  --font-sans: 'Poppins', sans-serif;
+
+  --spacing-180: 32rem;
+}
+
+@layer base {
+  button {
+    cursor: pointer;
+  }
+}
+
+.cta {
+  background-image: url(./images/bg-boost-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  @media (width > 576px) {
+    background-image: url(./images/bg-boost-desktop.svg);
+  }
+}
+
+.ficon:hover {
+  filter: invert(79%) sepia(61%) saturate(464%) hue-rotate(130deg)
+    brightness(89%) contrast(85%);
+}
+
+/* Hamburger Button */
+.hamburger {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  transition: all 0.25s;
+  cursor: pointer;
+}
+.hamburger-top,
+.hamburger-mid,
+.hamburger-bot {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 3px;
+  background: #9c9aa6;
+  transform: rotate(0);
+  transition: all 0.5s;
+}
+.hamburger-mid {
+  transform: translateY(7px);
+}
+.hamburger-bot {
+  transform: translateY(14px);
+}
+
+.open {
+  transform: rotate(90deg);
+  .hamburger-top {
+    transform: rotate(45deg) translateY(6px) translateX(6px);
+  }
+  .hamburger-bot {
+    transform: rotate(-45deg) translateY(6px) translateX(-6px);
+  }
+  .hamburger-mid {
+    transform: scaleX(0);
+  }
+}
