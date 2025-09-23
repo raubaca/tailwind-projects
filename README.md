@@ -21,3 +21,4 @@ Repository for projects in the course by [@bradtraversy](https://github.com/brad
 | 03  | Shortly          | [Demo](https://raubaca.github.io/tailwind-projects/shortly/)          |
 | 04  | Testimonial Grid | [Demo](https://raubaca.github.io/tailwind-projects/testimonial-grid/) |
 | 05  | Fylo             | [Demo](https://raubaca.github.io/tailwind-projects/fylo/)             |
+| 06  | Bookmark         | [Demo](https://raubaca.github.io/tailwind-projects/bookmark/)         |
